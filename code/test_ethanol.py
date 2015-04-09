@@ -1,8 +1,8 @@
 import gaff2xml
 import openeye.oechem, openeye.oequacpac, openeye.oeomega
 
-iupac = "ethanol"
-#iupac = "ethyl_acrylate"
+#iupac = "ethanol"
+iupac = "ethyl_acrylate"
 iupac_with_spaces = iupac.replace("_", " ")
 
 for hydrogens in [True, False]:
@@ -25,7 +25,7 @@ for hydrogens in [True, False]:
         conf = mol.GetConf(openeye.oechem.OEHasConfIdx(0))
 
         ofs = openeye.oechem.oemolostream()
-        ofs.open("./%s/%s_bayly_%s_%s.mol2" % (iupac, iupac, hydrogens, rms))
+        ofs.open("./%s/%s_%s_%s.mol2" % (iupac, iupac, hydrogens, rms))
         openeye.oechem.OEWriteMolecule(ofs, conf)
 
 mol = gaff2xml.openeye.iupac_to_oemol(iupac_with_spaces)
