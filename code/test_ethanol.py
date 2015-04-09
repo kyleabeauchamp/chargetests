@@ -1,12 +1,12 @@
 import gaff2xml
 import openeye.oechem, openeye.oequacpac, openeye.oeomega
 
-#iupac = "ethanol"
-iupac = "ethyl_acrylate"
+iupac = "ethanol"
+#iupac = "ethyl_acrylate"
 iupac_with_spaces = iupac.replace("_", " ")
 
 for hydrogens in [True, False]:
-    for rms in [0.0, 1E-3, 1.0, 1E3]:
+    for rms in [-1.0, 0.0, 1E-3, 1.0, 1E3]:
         mol = gaff2xml.openeye.iupac_to_oemol(iupac_with_spaces)
         omega = openeye.oeomega.OEOmega()
         omega.SetIncludeInput(True)
@@ -16,7 +16,7 @@ for hydrogens in [True, False]:
         omega.SetEnergyWindow(eWindow)
         omega.SetMaxConfs(800)
 
-        if rms > 0.0:
+        if rms >= 0.0:
             omega.SetRMSThreshold(rms)
 
         omega(mol)

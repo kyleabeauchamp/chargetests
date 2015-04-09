@@ -1,0 +1,11 @@
+ethyl_acrylate/ethyl_acrylate_bayly_False_0.001.mol2:      7 O2          3.9201   -0.3890   -0.1312 O.2       1 <0>        -0.5081
+ethyl_acrylate/ethyl_acrylate_bayly_False_0.0.mol2:      7 O2          3.9201   -0.3890   -0.1312 O.2       1 <0>        -0.5081
+ethyl_acrylate/ethyl_acrylate_bayly_False_1000.0.mol2:      7 O2          3.9201   -0.3890   -0.1312 O.2       1 <0>        -0.5451
+ethyl_acrylate/ethyl_acrylate_bayly_False_-1.0.mol2:      7 O2          3.9201   -0.3890   -0.1312 O.2       1 <0>        -0.5125
+ethyl_acrylate/ethyl_acrylate_bayly_False_1.0.mol2:      7 O2          3.9201   -0.3890   -0.1312 O.2       1 <0>        -0.5451
+ethyl_acrylate/ethyl_acrylate_bayly_True_0.001.mol2:      7 O2          3.9201   -0.3890   -0.1312 O.2       1 <0>        -0.5081
+ethyl_acrylate/ethyl_acrylate_bayly_True_0.0.mol2:      7 O2          3.9201   -0.3890   -0.1312 O.2       1 <0>        -0.5081
+ethyl_acrylate/ethyl_acrylate_bayly_True_1000.0.mol2:      7 O2          3.9201   -0.3890   -0.1312 O.2       1 <0>        -0.5451
+ethyl_acrylate/ethyl_acrylate_bayly_True_-1.0.mol2:      7 O2          3.9201   -0.3890   -0.1312 O.2       1 <0>        -0.5125
+ethyl_acrylate/ethyl_acrylate_bayly_True_1.0.mol2:      7 O2          3.9201   -0.3890   -0.1312 O.2       1 <0>        -0.5451
+ethyl_acrylate/ethyl_acrylate_gaff2xml.mol2:      7 O2          3.9201   -0.3890   -0.1312 O.2       1 <0>        -0.5451
